@@ -5,7 +5,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Montserrat', sans-serif;
-     /* border: 2px solid yellow; */
+     border: 2px solid red;
 }
 
 nav {
@@ -63,26 +63,38 @@ nav a {
 }
 
 nav img {
-
      height: 35px;
 }
 
 
 /* .First-Section */
 .firstdiv {
-     background-image: url(firstimage.jpg);
-     width: 99.9%;
+
+     width: 100vw;
      height: 100vh;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
      color: white;
-     position: relative;
      display: flex;
      align-items: center;
+     justify-content: center;
+     /* flex-direction: column; */
+}
+.textsectionfirst{
+     width: 45%;
+     height: 100%;
+     background-color: rgb(0, 0, 0);
+     border: #0f79af 2px;
 }
 
-.firstdiv h2,
+.bgimage-1 {
+     width: 55%;
+     height: 100%;
+     background-image: url(firstimage.jpg);
+     /* background-position: center; */
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.textsectionfirst h2,
 h4,
 button,
 p {
@@ -93,12 +105,12 @@ p {
      left: 5%;
 }
 
-.firstdiv h2 {
+.textsectionfirst h2 {
      font-size: 2.7em;
-font-weight: 400;
+     font-weight: 400;
 }
 
-.firstdiv h4 {
+.textsectionfirst h4 {
      font-size: 1.5625em;
      font-weight: 400;
      margin-top: 15px;
@@ -117,7 +129,7 @@ font-weight: 400;
      cursor: pointer;
 }
 
-.firstdiv p {
+.textsectionfirst p {
      margin-top: 15px;
      margin-left: 22px;
 }
@@ -150,7 +162,7 @@ p {
 
 .seconddiv h2 {
      font-size: 40px;
-font-weight: 500;
+     font-weight: 500;
 }
 
 .seconddiv h4 {
@@ -199,7 +211,8 @@ font-weight: 500;
      padding: 5px 50px 5px 25px;
 
 }
-.text-section-3 br{
+
+.text-section-3 br {
      display: none;
 }
 
@@ -372,5 +385,5 @@ footer img {
 }
 
 .footer a {
-     color: rgb(20,91,116);
+     color: rgb(20, 91, 116);
 }
