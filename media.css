@@ -1,0 +1,237 @@
+@media(max-width:768px) {
+
+     .left-links a {
+          display: none;
+     }
+
+     .right-links button {
+          display: none;
+     }
+
+     .right-links {
+          width: 30%;
+     }
+
+     .firstdiv {
+
+          width: 100%;
+          height: 113vh;
+          background-position: 100% 0%;
+          background-repeat: no-repeat;
+          background-size: 150% 45%;
+          color: white;
+          align-items: flex-end;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+
+     .textsectionfirst br {
+          display: none;
+     }
+
+     .textsectionfirst {
+          position: static;
+          width: 100%;
+          height: 60%;
+          background-color: black;
+          padding-left: 0px;
+          ;
+          padding: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+
+     .firstdiv h2 {
+          font-size: 1.6em;
+          font-weight: 500;
+     }
+
+     .firstdiv h4 {
+          font-size: 0.9em;
+          font-weight: 400;
+          margin-top: 15px;
+     }
+
+     .button1 {
+          width: 15em;
+          font-size: 0.9em;
+     }
+
+     .firstdiv p {
+          font-size: 0.8em;
+     }
+
+     /* Second-section */
+
+     .seconddiv {
+          width: 100%;
+          height: 80vh, auto;
+          background-position: 100% 0%;
+          background-repeat: no-repeat;
+          background-size: 154% 62%;
+          color: white;
+          align-items: flex-end;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+
+     .textsectionsecond {
+          width: 100%;
+          height: 60%;
+          position: static;
+          background-color: black;
+          padding: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+
+     .seconddiv h2 {
+          font-size: 1.6em;
+     }
+
+     .seconddiv h4 {
+          font-size: 1em;
+          font-weight: lighter;
+          margin-top: 15px;
+     }
+
+     .button2 {
+          width: 14em;
+          font-size: 0.9em;
+     }
+
+     .seconddiv p {
+          font-size: 0.8em;
+     }
+
+     /* Third-section */
+     .thirddiv {
+          height: auto;
+          justify-content: center;
+          flex-direction: column;
+          padding: 20px 10px;
+
+     }
+
+     .image-section-3 {
+          width: 100%;
+     }
+
+     .text-section-3 {
+          width: 100%;
+     }
+
+     .text-section-3 br {
+          display: none;
+     }
+
+     .text-section-3 h3 {
+
+          font-size: 4.8vw;
+     }
+
+     .text-section-3 h5 {
+          font-size: 17px;
+     }
+
+     /* Fourth-Section */
+     .fourthdiv {
+          width: 100%;
+          height: 110vh;
+          background-position: 100% 0%;
+          background-repeat: no-repeat;
+          background-size: 100% 50%;
+          color: white;
+          align-items: flex-end;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+
+     .text-section-4 {
+          width: 100%;
+          height: 60%;
+          position: static;
+          background-color: black;
+          padding: 5px 25px 10px 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+
+     .fourthdiv h2 {
+          font-size: 1.6em;
+     }
+
+     .fourthdiv h4 {
+          font-size: 1em;
+          font-weight: lighter;
+     }
+
+     .button4 {
+          width: 14em;
+          font-size: 0.9em;
+     }
+
+     .fourthdiv p {
+          font-size: 0.8em;
+     }
+     .text-section-4 br{
+          display: none;
+     }
+
+     /* Fifth-Section */
+     .fifthdiv {
+          width: 100%;
+          height: 100vh;
+          background-position: 100% 0%;
+          background-repeat: no-repeat;
+          background-size: 100% 50%;
+          color: white;
+          align-items: flex-end;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+
+     .text-section-5 {
+          width: 100%;
+          height: 60%;
+          position: static;
+          background-color: black;
+          padding: 5px 25px 30px 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+
+     .text-section-5 br{
+          display: none;
+     }
+     .fifthdiv h2 {
+          font-size: 1.6em;
+     }
+
+     .fifthdiv h4 {
+          font-size: 1em;
+          font-weight: lighter;
+     }
+
+     .button5 {
+          width: 14em;
+          font-size: 0.9em;
+     }
+
+     .fifthdiv p {
+          font-size: 0.8em;
+     }
+.footer img, p , a{
+     font-size: 8.5px;
+
+}
+
+}
